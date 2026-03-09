@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  
+    background: rgb(19, 5, 54);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+  }
+  
+  .card-image img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card-content {
+    flex: 1;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #1e293b;
+  }
+  
+  .card-content p {
+    margin-top: 8px;
+    color: #64748b;
+  }
+  
+  .card-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-edit {
+    background-color: #2563eb;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-edit:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .btn-delete {
+    background-color: #ef4444;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-delete:hover {
+    background-color: #dc2626;
+  }
